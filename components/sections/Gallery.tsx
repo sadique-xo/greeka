@@ -4,7 +4,7 @@ import { galleryImages } from "@/data/gallery-data";
 export function Gallery() {
   return (
     <section id="gallery" className="w-screen relative left-1/2 -translate-x-1/2 overflow-hidden">
-      <div className="w-full grid grid-cols-2 gap-0">
+      <div className="w-full grid grid-cols-4 gap-0">
         {galleryImages.map((img, i) => (
           <div key={i} className="relative overflow-hidden aspect-[4/3]">
             <Image
